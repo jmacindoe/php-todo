@@ -22,7 +22,7 @@
                             <tr>
                                 <td>{{ $value->id }}</td>
                                 <td>{{ $value->title }}</td>
-                                <td>{{ $value->completed }}</td>
+                                <td>{{ $value->completed ? "Yes" : "No" }}</td>
 
                                 <!-- Action buttons -->
                                 <td>
